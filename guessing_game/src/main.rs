@@ -10,7 +10,6 @@ fn main() {
     // macro
     println!("Guess the number!");
     let secret_number: u16 = rand::thread_rng().gen_range(1..=100);
-    // println!("The secret number is: {secret_number}");
 
     loop {
         println!("Please input your guess");
